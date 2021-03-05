@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'DevNet Create GitHub Pages Demo'
-copyright = '2020, Anne Gentle'
-author = 'Anne Gentle'
+project = 'eo2cube'
+copyright = '2021, Steven Hill'
+author = 'Steven Hill'
 
 # The short X.Y version
 version = ''
@@ -102,7 +102,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'DevNetCreateDemodoc'
+htmlhelp_basename = 'eo2cube'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -129,8 +129,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'DevNetCreateDemo.tex', 'DevNet Create Demo Documentation',
-     'Anne Gentle', 'manual'),
+    (master_doc, 'eo2cube.tex', 'eo2cube Documentation',
+     'Steven Hill', 'manual'),
 ]
 
 
@@ -139,7 +139,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'devnetcreatedemo', 'DevNet Create Demo Documentation',
+    (master_doc, 'eo2cube', 'eo2cube Documentation',
      [author], 1)
 ]
 
@@ -150,8 +150,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'DevNetCreateDemo', 'DevNet Create Demo Documentation',
-     author, 'DevNetCreateDemo', 'For DevNet Create 2019, this demonstrated building using GitHub Pages with Sphinx.',
+    (master_doc, 'eo2cube', 'eo2cube Documentation',
+     author, 'eo2cube', 'eo2cube documentation',
      'Miscellaneous'),
 ]
 
